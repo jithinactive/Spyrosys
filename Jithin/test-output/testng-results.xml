@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-10T11:47:42 IST" name="Default suite" finished-at="2023-11-10T11:48:22 IST" duration-ms="40356">
+    <groups>
+    </groups>
+    <test started-at="2023-11-10T11:47:42 IST" name="Default test" finished-at="2023-11-10T11:48:22 IST" duration-ms="40356">
+      <class name="com.jtn.srcshot.ScreenshotProgram">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jtn.srcshot.ScreenshotProgram@6379eb]" started-at="2023-11-10T11:47:42 IST" name="setup" finished-at="2023-11-10T11:48:14 IST" duration-ms="31896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="takeFullShot()[pri:1, instance:com.jtn.srcshot.ScreenshotProgram@6379eb]" started-at="2023-11-10T11:48:14 IST" name="takeFullShot" finished-at="2023-11-10T11:48:15 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeFullShot -->
+        <test-method signature="takeCustomShot()[pri:2, instance:com.jtn.srcshot.ScreenshotProgram@6379eb]" started-at="2023-11-10T11:48:15 IST" name="takeCustomShot" finished-at="2023-11-10T11:48:15 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeCustomShot -->
+        <test-method is-config="true" signature="browser()[pri:0, instance:com.jtn.srcshot.ScreenshotProgram@6379eb]" started-at="2023-11-10T11:48:15 IST" name="browser" finished-at="2023-11-10T11:48:22 IST" duration-ms="7125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+      </class> <!-- com.jtn.srcshot.ScreenshotProgram -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
