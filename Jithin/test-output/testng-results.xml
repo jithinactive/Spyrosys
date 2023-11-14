@@ -1,29 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-10T11:47:42 IST" name="Default suite" finished-at="2023-11-10T11:48:22 IST" duration-ms="40356">
+  <suite started-at="2023-11-14T11:46:29 IST" name="Suite" finished-at="2023-11-14T11:49:06 IST" duration-ms="157529">
     <groups>
     </groups>
-    <test started-at="2023-11-10T11:47:42 IST" name="Default test" finished-at="2023-11-10T11:48:22 IST" duration-ms="40356">
-      <class name="com.jtn.srcshot.ScreenshotProgram">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jtn.srcshot.ScreenshotProgram@6379eb]" started-at="2023-11-10T11:47:42 IST" name="setup" finished-at="2023-11-10T11:48:14 IST" duration-ms="31896" status="PASS">
+    <test started-at="2023-11-14T11:46:29 IST" name="ChromeTest" finished-at="2023-11-14T11:47:03 IST" duration-ms="34424">
+      <class name="crossbrowser.Browsertest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:crossbrowser.Browsertest@436813f3]" started-at="2023-11-14T11:46:29 IST" name="setUp" finished-at="2023-11-14T11:46:56 IST" duration-ms="27427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="takeFullShot()[pri:1, instance:com.jtn.srcshot.ScreenshotProgram@6379eb]" started-at="2023-11-10T11:48:14 IST" name="takeFullShot" finished-at="2023-11-10T11:48:15 IST" duration-ms="559" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="url()[pri:0, instance:crossbrowser.Browsertest@436813f3]" started-at="2023-11-14T11:46:57 IST" name="url" finished-at="2023-11-14T11:47:03 IST" duration-ms="6697" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- takeFullShot -->
-        <test-method signature="takeCustomShot()[pri:2, instance:com.jtn.srcshot.ScreenshotProgram@6379eb]" started-at="2023-11-10T11:48:15 IST" name="takeCustomShot" finished-at="2023-11-10T11:48:15 IST" duration-ms="332" status="PASS">
+        </test-method> <!-- url -->
+      </class> <!-- crossbrowser.Browsertest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-11-14T11:47:04 IST" name="EdgeTest" finished-at="2023-11-14T11:47:58 IST" duration-ms="53527">
+      <class name="crossbrowser.Browsertest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:crossbrowser.Browsertest@1aafa419]" started-at="2023-11-14T11:47:04 IST" name="setUp" finished-at="2023-11-14T11:47:40 IST" duration-ms="35492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- takeCustomShot -->
-        <test-method is-config="true" signature="browser()[pri:0, instance:com.jtn.srcshot.ScreenshotProgram@6379eb]" started-at="2023-11-10T11:48:15 IST" name="browser" finished-at="2023-11-10T11:48:22 IST" duration-ms="7125" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="url()[pri:0, instance:crossbrowser.Browsertest@1aafa419]" started-at="2023-11-14T11:47:40 IST" name="url" finished-at="2023-11-14T11:47:57 IST" duration-ms="16623" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browser -->
-      </class> <!-- com.jtn.srcshot.ScreenshotProgram -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- url -->
+      </class> <!-- crossbrowser.Browsertest -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2023-11-14T11:47:59 IST" name="FirefoxTest" finished-at="2023-11-14T11:49:06 IST" duration-ms="67629">
+      <class name="crossbrowser.Browsertest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:crossbrowser.Browsertest@235834f2]" started-at="2023-11-14T11:47:59 IST" name="setUp" finished-at="2023-11-14T11:48:46 IST" duration-ms="47129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="url()[pri:0, instance:crossbrowser.Browsertest@235834f2]" started-at="2023-11-14T11:48:46 IST" name="url" finished-at="2023-11-14T11:49:06 IST" duration-ms="19644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+      </class> <!-- crossbrowser.Browsertest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
 </testng-results>

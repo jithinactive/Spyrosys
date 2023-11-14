@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.jtn.srcshot.ScreenshotProgram">
+      <class name="crossbrowser.Browsertest">
         <methods>
-          <include name="takeFullShot"/>
-          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="url"/>
         </methods>
-      </class> <!-- com.jtn.srcshot.ScreenshotProgram -->
+      </class> <!-- crossbrowser.Browsertest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
