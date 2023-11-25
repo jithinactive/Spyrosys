@@ -9,6 +9,7 @@ import org.testng.annotations.*;
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.util.concurrent.TimeUnit;
 
 public class UploadTest {
 
@@ -19,6 +20,7 @@ public class UploadTest {
         driver = new ChromeDriver();
         driver.get("https://www.ilovepdf.com/pdf_to_word");
         driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 
     }
 
